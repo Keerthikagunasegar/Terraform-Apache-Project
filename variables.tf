@@ -1,5 +1,13 @@
+variable "vpc_cidr" {
+  description = "CIDR block for VPC"
+}
+
+variable "subnet_cidr" {
+  description = "CIDR block for public subnet"
+}
+
 variable "ami" {
-  description = "AMI ID"
+  description = "AMI ID for EC2 instance"
 }
 
 variable "instance_type" {
