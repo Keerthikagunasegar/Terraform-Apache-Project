@@ -1,3 +1,3 @@
-ami             = "ami_idf"
-instance_type   = "t3.micro"
+ami             = "ami_id"
+instance_type   = "instance_type"
 public_key_path = "key_path"
